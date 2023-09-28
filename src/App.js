@@ -44,8 +44,6 @@ function App() {
     <div className="App">
       <button onClick={changeOn} disabled={disable}>
         {btn}
-        {btnValue? "true" : "false"}
-        {disable? "true" : "false"}
       </button>
     </div>
   );
